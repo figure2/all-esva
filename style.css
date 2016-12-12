@@ -1,10 +1,30 @@
 /*
- Theme Name:   GeneratePress Child
- Theme URI:    http://generatepress.com
- Description:  Default GeneratePress child theme
- Author:       Thomas Usborne
- Author URI:   http://edge22.com
+ Theme Name:   Academy for Lifetime Learning
+ Theme URI:    http://www.markhannondesign.com
+ Description:  The theme for ALL ESVA
+ Author:       Thomas Usborne, Mark Hannon
+ Author URI:   http://www.markhannondesign.com
  Template:     generatepress
  Version:      0.1
  Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, light, white, dark, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, yellow
 */
+
+.site-logo {
+	float: left;
+	margin-right: 18px;
+}
+.site-branding {
+	display: inline-block;
+}
+.main-title {
+	line-height: 189px;
+	font-size: 25px;
+}
+.inside-header {
+	padding: 18px;
+}
+
+/*   Main Navigation   */
+.main-navigation .main-nav ul li a, .menu-toggle, .main-navigation .mobile-bar-items a {
+	line-height: 35px;
+}
