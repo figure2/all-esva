@@ -109,3 +109,13 @@ function generate_construct_site_title()
 	<?php endif;
 }
 endif;
+
+/*  Change Search Text  */
+function tachp_search_form($html)
+{
+    $html = str_replace('placeholder="Search ', 'placeholder="Search this website ', $html);
+
+    return $html;
+}
+add_filter('get_search_form', 'tachp_search_form');
+
