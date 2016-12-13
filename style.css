@@ -9,6 +9,9 @@
  Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, light, white, dark, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, yellow
 */
 
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
 .site-logo {
 	float: left;
 	margin-right: 18px;
@@ -24,7 +27,56 @@
 	padding: 18px;
 }
 
+/*   Main Content   */
+.home .entry-header {
+	display: none;
+}
+.home .entry-content {
+	margin-top: 0;
+}
+.site-content {
+	padding: 20px 0 !important;
+}
+.one-container .site-main {
+	margin-left: 20px !important;
+}
+
 /*   Main Navigation   */
 .main-navigation .main-nav ul li a, .menu-toggle, .main-navigation .mobile-bar-items a {
 	line-height: 35px;
+}
+
+/*   Images   */
+.img-border {
+	border: 2px solid #003362;
+}
+
+/*  Footer  */
+.site-info {
+	padding: 8px 0;
+}
+
+/*   Responsive: Mobile-friendly   */
+@media (max-width: 768px) {
+
+	.inside-left-sidebar {
+		padding: 0 20px;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.site-logo {
+		float: none;
+		margin: 0 auto;
+	}
+	.site-branding {
+		display: block;
+	}
+	.main-title {
+		line-height: 1.0em;
+		font-size: 97%;
+	}
+
 }
